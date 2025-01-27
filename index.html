@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Single Page Website</title>
+    <title>Janata Mechanical Works</title>
     <style>
         body {
             margin: 0;
@@ -11,21 +11,22 @@
             line-height: 1.6;
         }
         header {
-            background: #333;
+            background: #003366;
             color: #fff;
-            padding: 1rem 0;
+            padding: 1.5rem 0;
             text-align: center;
         }
         nav {
             display: flex;
             justify-content: center;
-            background: #444;
+            background: #00509e;
             padding: 0.5rem 0;
         }
         nav a {
             color: white;
             text-decoration: none;
             margin: 0 1rem;
+            font-weight: bold;
         }
         nav a:hover {
             text-decoration: underline;
@@ -43,49 +44,77 @@
         #services {
             background: #dcdcdc;
         }
+        #gallery {
+            background: #f4f4f4;
+        }
         #contact {
             background: #ccc;
         }
         footer {
-            background: #333;
+            background: #003366;
             color: white;
             text-align: center;
             padding: 1rem 0;
-            position: sticky;
-            bottom: 0;
-            width: 100%;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+        .gallery img {
+            width: 300px;
+            margin: 1rem;
+            display: inline-block;
         }
     </style>
 </head>
 <body>
     <header>
-        <h1>Welcome to My Website</h1>
-        <p>Your one-stop solution for all things web!</p>
+        <h1>Welcome to Janata Mechanical Works</h1>
+        <p>Leading the industry with innovation and precision engineering.</p>
     </header>
     <nav>
         <a href="#home">Home</a>
         <a href="#about">About</a>
         <a href="#services">Services</a>
+        <a href="#gallery">Gallery</a>
         <a href="#contact">Contact</a>
     </nav>
     <section id="home">
         <h2>Home</h2>
-        <p>Discover the amazing things we have to offer.</p>
+        <p>Welcome to Janata Mechanical Works, where we turn ideas into reality.</p>
     </section>
     <section id="about">
         <h2>About</h2>
-        <p>Learn more about our journey and mission.</p>
+        <p>With decades of experience, Janata Mechanical Works specializes in manufacturing high-quality mechanical parts and providing unparalleled customer service.</p>
     </section>
     <section id="services">
         <h2>Services</h2>
-        <p>Check out the services we provide to help you succeed.</p>
+        <p>We provide a range of services, including:</p>
+        <ul>
+            <li>Custom Mechanical Fabrication</li>
+            <li>Precision Engineering</li>
+            <li>Machine Repairs and Maintenance</li>
+        </ul>
+    </section>
+    <section id="gallery">
+        <h2>Gallery</h2>
+        <p>Take a look at some of our recent projects:</p>
+        <div class="gallery">
+            <img src="https://via.placeholder.com/300x200" alt="Machine Part 1">
+            <img src="https://via.placeholder.com/300x200" alt="Machine Part 2">
+            <img src="https://via.placeholder.com/300x200" alt="Workshop Image">
+        </div>
     </section>
     <section id="contact">
         <h2>Contact</h2>
-        <p>Get in touch with us for more information.</p>
+        <p>Get in touch with us for your mechanical needs:</p>
+        <p>Email: info@janatamechanicalworks.com</p>
+        <p>Phone: +91-19422893408</p>
+        <p>Address: Akot Stand Akola </p>
     </section>
     <footer>
-        <p>&copy; 2025 My Website. All Rights Reserved.</p>
+        <p>&copy; 2025 Janata Mechanical Works. All Rights Reserved.</p>
     </footer>
 </body>
 </html>
